@@ -1,0 +1,21 @@
+{
+  "name": "chuck-norris-api-project",
+  "version": "1.0.0",
+  "description": "**Nome:** Jefferson Eduardo Santos Lima",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoSantz/chuck-norris-api-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoSantz/chuck-norris-api-project/issues"
+  },
+  "homepage": "https://github.com/EduardoSantz/chuck-norris-api-project#readme"
+}
