@@ -1,0 +1,18 @@
+{
+    "build": {
+      "nixpacksPlan": {
+        "phases": {
+          "setup": {
+            "nixPkgs": ["nodejs", "postgresql"]
+          },
+          "build": {
+            "commands": [
+              "npm install",
+              "npm run prisma:generate",
+              "npm run prisma:migrate"
+            ]
+          }
+        }
+      }
+    }
+  }
