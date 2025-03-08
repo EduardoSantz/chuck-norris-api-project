@@ -12,4 +12,8 @@ model Favorite {
   text      String
   image     String
   createdAt DateTime @default(now())
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 25fabed1920459661930fe74cc8d279c8ae401a4
